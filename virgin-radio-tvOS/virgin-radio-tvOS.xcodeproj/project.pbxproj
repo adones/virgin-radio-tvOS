@@ -8,18 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		91237EFA1C44F51B004BD71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91237EF91C44F51B004BD71B /* AppDelegate.swift */; };
-		91237EFC1C44F51B004BD71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91237EFB1C44F51B004BD71B /* ViewController.swift */; };
 		91237EFF1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91237EFD1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld */; };
-		91237F021C44F51B004BD71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91237F001C44F51B004BD71B /* Main.storyboard */; };
 		91237F041C44F51B004BD71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91237F031C44F51B004BD71B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91237EF61C44F51B004BD71B /* virgin-radio-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "virgin-radio-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91237EF91C44F51B004BD71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91237EFB1C44F51B004BD71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91237EFE1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = virgin_radio_tvOS.xcdatamodel; sourceTree = "<group>"; };
-		91237F011C44F51B004BD71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91237F031C44F51B004BD71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91237F051C44F51B004BD71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				91237EF91C44F51B004BD71B /* AppDelegate.swift */,
-				91237EFB1C44F51B004BD71B /* ViewController.swift */,
-				91237F001C44F51B004BD71B /* Main.storyboard */,
 				91237F031C44F51B004BD71B /* Assets.xcassets */,
 				91237F051C44F51B004BD71B /* Info.plist */,
 				91237EFD1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld */,
@@ -123,7 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91237F041C44F51B004BD71B /* Assets.xcassets in Resources */,
-				91237F021C44F51B004BD71B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,24 +127,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91237EFC1C44F51B004BD71B /* ViewController.swift in Sources */,
 				91237EFA1C44F51B004BD71B /* AppDelegate.swift in Sources */,
 				91237EFF1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		91237F001C44F51B004BD71B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91237F011C44F51B004BD71B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		91237F061C44F51B004BD71B /* Debug */ = {

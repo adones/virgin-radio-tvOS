@@ -7,16 +7,45 @@
 //
 
 import UIKit
+import TVMLKit
 import CoreData
+import AVFoundation
+import AVKit
+
+public var AudioPlayer = AVPlayer();
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDelegate, AVAudioPlayerDelegate {
 
     var window: UIWindow?
-
-
+    var appController: TVApplicationController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        AudioPlayer = AVPlayer(URL: NSURL(string: "http://playerservices.streamtheworld.com/pls/VIRGINRADIO_DUBAIAAC.pls")!);
+        AudioPlayer.play();
+       
+        
+        let appControllerContext = TVApplicationControllerContext()
+        
+        let javascriptURL = NSURL(string: "http://dev.arn.ae/virginradio/tvOS/virgin-radio-tvOS.js")
+        
+        appControllerContext.javaScriptApplicationURL = javascriptURL!
+        if let options = launchOptions {
+            for (kind, value) in options {
+                //NSLog(value as! String);
+                if let kindStr = kind as? String {
+                    appControllerContext.launchOptions[kindStr] = value
+                }
+            }
+        }
+        
+        self.appController = TVApplicationController(context: appControllerContext, window: self.window, delegate: self)
+        
         return true
     }
 
@@ -28,6 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        AudioPlayer.pause();
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
@@ -36,6 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        AudioPlayer.play();
     }
 
     func applicationWillTerminate(application: UIApplication) {
