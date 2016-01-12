@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91237EFA1C44F51B004BD71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91237EF91C44F51B004BD71B /* AppDelegate.swift */; };
+		91237EFC1C44F51B004BD71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91237EFB1C44F51B004BD71B /* ViewController.swift */; };
+		91237EFF1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91237EFD1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld */; };
+		91237F021C44F51B004BD71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91237F001C44F51B004BD71B /* Main.storyboard */; };
+		91237F041C44F51B004BD71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91237F031C44F51B004BD71B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91237EF61C44F51B004BD71B /* virgin-radio-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "virgin-radio-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91237EF91C44F51B004BD71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91237EFB1C44F51B004BD71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91237EFE1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = virgin_radio_tvOS.xcdatamodel; sourceTree = "<group>"; };
+		91237F011C44F51B004BD71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91237F031C44F51B004BD71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91237F051C44F51B004BD71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91237EF31C44F51B004BD71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91237EED1C44F51B004BD71B = {
+			isa = PBXGroup;
+			children = (
+				91237EF81C44F51B004BD71B /* virgin-radio-tvOS */,
+				91237EF71C44F51B004BD71B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91237EF71C44F51B004BD71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91237EF61C44F51B004BD71B /* virgin-radio-tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91237EF81C44F51B004BD71B /* virgin-radio-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				91237EF91C44F51B004BD71B /* AppDelegate.swift */,
+				91237EFB1C44F51B004BD71B /* ViewController.swift */,
+				91237F001C44F51B004BD71B /* Main.storyboard */,
+				91237F031C44F51B004BD71B /* Assets.xcassets */,
+				91237F051C44F51B004BD71B /* Info.plist */,
+				91237EFD1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld */,
+			);
+			path = "virgin-radio-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91237EF51C44F51B004BD71B /* virgin-radio-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91237F081C44F51B004BD71B /* Build configuration list for PBXNativeTarget "virgin-radio-tvOS" */;
+			buildPhases = (
+				91237EF21C44F51B004BD71B /* Sources */,
+				91237EF31C44F51B004BD71B /* Frameworks */,
+				91237EF41C44F51B004BD71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "virgin-radio-tvOS";
+			productName = "virgin-radio-tvOS";
+			productReference = 91237EF61C44F51B004BD71B /* virgin-radio-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91237EEE1C44F51B004BD71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adones Fuentes";
+				TargetAttributes = {
+					91237EF51C44F51B004BD71B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 91237EF11C44F51B004BD71B /* Build configuration list for PBXProject "virgin-radio-tvOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91237EED1C44F51B004BD71B;
+			productRefGroup = 91237EF71C44F51B004BD71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91237EF51C44F51B004BD71B /* virgin-radio-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91237EF41C44F51B004BD71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91237F041C44F51B004BD71B /* Assets.xcassets in Resources */,
+				91237F021C44F51B004BD71B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91237EF21C44F51B004BD71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91237EFC1C44F51B004BD71B /* ViewController.swift in Sources */,
+				91237EFA1C44F51B004BD71B /* AppDelegate.swift in Sources */,
+				91237EFF1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91237F001C44F51B004BD71B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91237F011C44F51B004BD71B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91237F061C44F51B004BD71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		91237F071C44F51B004BD71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91237F091C44F51B004BD71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "virgin-radio-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ae.arn.virgin-radio-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91237F0A1C44F51B004BD71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "virgin-radio-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ae.arn.virgin-radio-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91237EF11C44F51B004BD71B /* Build configuration list for PBXProject "virgin-radio-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91237F061C44F51B004BD71B /* Debug */,
+				91237F071C44F51B004BD71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91237F081C44F51B004BD71B /* Build configuration list for PBXNativeTarget "virgin-radio-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91237F091C44F51B004BD71B /* Debug */,
+				91237F0A1C44F51B004BD71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91237EFD1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91237EFE1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodel */,
+			);
+			currentVersion = 91237EFE1C44F51B004BD71B /* virgin_radio_tvOS.xcdatamodel */;
+			path = virgin_radio_tvOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91237EEE1C44F51B004BD71B /* Project object */;
+}
